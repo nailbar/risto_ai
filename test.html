@@ -1,0 +1,13 @@
+<html>
+<head>
+<script type='text/javascript' src='risto_ai.js'></script>
+<script type='text/javascript'>
+var ai = new risto_ai({
+    'getSensorStatus': function() { return 1; },
+    'currentControls': {},
+    'drive': function() {}
+});
+ai.think();
+</script>
+</head>
+</html>

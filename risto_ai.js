@@ -46,7 +46,7 @@ function risto_ai(risto) {
             });
         
         // Normal forward driving
-        } else if(this.risto.currentControls.timeout <= 0) {
+        } else if(idle) {
             this.state = 0;
             
             // Drive forward
